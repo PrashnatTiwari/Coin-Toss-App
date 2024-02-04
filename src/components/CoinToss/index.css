@@ -1,0 +1,40 @@
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  height: 80vh;
+  width: 40vw;
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button {
+  height: 3vh;
+  width: 7vw;
+  text-align: center;
+  color: #a35200;
+  background-color: #f9d423;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+.toss-image {
+  height: 200px;
+  width: 200px;
+}
+
+.counts-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
